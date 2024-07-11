@@ -178,5 +178,48 @@ iframe{
    
 }
 
+/* My Current target */
+.my-current-target{
+    margin-top: 100px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.skill{
+    padding: 30px;
+}
+
+.skill-1{
+    background-color: #fcecec;
+    border-radius: 15px;
+}
+
+.skill-2{
+    background-color: #EBEBEB;
+    border-radius: 15px;
+
+}
+
+.skill-3{
+    background-color: #f6f7c0;
+    border-radius: 15px;
+
+}
+h4{
+    font-size: 23px;
+}
+
+a{
+    color: black;
+}
+
+
+
 
 
