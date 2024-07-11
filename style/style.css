@@ -49,6 +49,10 @@ h2{
     font-size: 22px;
     color: #0D1321;
 }
+
+.text-center{
+    text-align: center;
+}
 /* Nav styles */
 nav{
     display: flex;
@@ -101,16 +105,12 @@ main{
     margin: 0 auto;
 }
 
-.secondary-bg{
-    background-color: #f8f8f8;
-    border-radius: 15px;
-}
-
 .why-development{
     border-radius: 16px;
     padding: 80px 95px;
     text-align: center;
     margin-top: 50px;
+    background-color: #f8f8f8;
 }
 
 .development-itmes{
@@ -155,18 +155,28 @@ main{
 .development-itmes3{
     display: flex;
     justify-content: space-around;
+    margin-top: 35px;
+    
 }
 
-.development-item3{
-    align-items: left;
-    margin-top: 35px;
-}
 
 .item-last{
     margin-top: 35px;
     text-align: left;
-    
+    margin-right: 150px;
     
 }
+
+
+/* My Inspiration */
+
+iframe{
+   border-radius: 15px;
+   margin-top: 40px;
+   
+   padding: 5px;
+   
+}
+
 
 
