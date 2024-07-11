@@ -27,15 +27,28 @@
    
   }
 
-
-
-
 /* shared style */
 
 .text-primary{
     color: #0D1321;
 }
 
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+}
+h2{
+    font-size: 22px;
+    color: #0D1321;
+}
 /* Nav styles */
 nav{
     display: flex;
@@ -76,6 +89,84 @@ nav ul li{
 h1{
     font-size: 30px;
     font-weight: 600;
+}
+
+.btn-primary-contactMe{
+    margin-top: 70px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.secondary-bg{
+    background-color: #f8f8f8;
+    border-radius: 15px;
+}
+
+.why-development{
+    border-radius: 16px;
+    padding: 80px 95px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.development-itmes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.development-item{
+    text-align: left;
+    margin-top: 35px;
+}
+.layout1{
+    margin-top: 35px;
+}
+
+.first-button{
+    padding: 5px 20px;
+}
+
+/* second development itmes */
+.development-itmes2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.development-item1{
+    align-items: left;
+    margin-top: 35px;
+}
+
+
+
+.item-left{
+    margin-top: 35px;
+    text-align: left;
+    margin-right: 150px;
+    
+}
+
+/* third development itmes */
+
+.development-itmes3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.development-item3{
+    align-items: left;
+    margin-top: 35px;
+}
+
+.item-last{
+    margin-top: 35px;
+    text-align: left;
+    
+    
 }
 
 
